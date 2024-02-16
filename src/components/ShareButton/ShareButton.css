@@ -1,0 +1,19 @@
+/* ShareButton.css */
+.share-button-container {
+  display: flex;
+  flex-direction: column;
+}
+.sharebutton-title {
+  font-size: 22px;
+  margin: 2px;
+  color: black;
+}
+.icon-container {
+  display: flex;
+}
+
+.icon {
+  font-size: 19px;
+  font-weight: 500;
+  margin: 0 5px;
+}

@@ -1,0 +1,221 @@
+.sing-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 50px; */
+}
+
+.single-main-con {
+  margin: 20px;
+  max-width: 60%;
+  display: flex;
+  /* bac  kground-color: #c6943f; */
+  flex-direction: column;
+}
+.single-movie-details {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 80px 80px 80px;
+  margin-bottom: 80px;
+}
+
+/* .single-movie-details {
+  display: flex;
+  flex-direction: column;
+} */
+
+.single-title {
+  font-size: 35px;
+  margin: 0px;
+  color: black;
+  text-align: center;
+}
+.single-date {
+  font-size: 18px;
+  text-align: center;
+  margin: 0px;
+}
+
+.single-img-desc {
+  /* display: flex;
+  gap: 20px;
+  margin: 10px 20px;
+  height: auto;
+  width: auto;
+  padding: 100px;
+  border: 2px solid black; */
+}
+
+/* .single-img {
+    margin: 20px 0px;
+    width: 330px;
+    height: 500px;
+    border-radius: 20px;
+  } */
+
+.single-desc {
+  line-height: 25px;
+  font-size: 22px;
+}
+
+.single-text-desc {
+  font-size: 30px;
+  color: #004ba3;
+}
+
+/*trailer css*/
+
+.single-img-desc {
+}
+
+.single-img-desc:hover {
+}
+
+.single-img {
+  margin: 20px 0px;
+  border-radius: 20px;
+  height: 300px;
+  width: 850px;
+  padding: 10px 10px;
+  object-fit: cover;
+  border-radius: 30px;
+}
+.img-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.single-desc {
+  line-height: 25px;
+  font-size: 16px;
+}
+
+.single-text-desc {
+  font-size: 20px;
+  color: black;
+}
+
+.single-trailer {
+  text-align: center;
+  margin: 20px 0px;
+}
+.single-trailer-title {
+  font-size: 30px;
+  margin: 40px;
+  color: black;
+  text-align: center;
+}
+
+.single-youtube {
+  width: 650px;
+  height: 315px;
+  border-radius: 15px;
+}
+
+/*Like but*/
+.div-like {
+  margin: 20px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.color-size {
+  display: flex;
+  border: 2px solid black;
+  width: 7%;
+  font-size: 16px;
+  padding: 5px;
+  border-radius: 100px;
+  height: 8%;
+  justify-content: center;
+  align-items: center;
+}
+/*other movie css*/
+
+.single-other-title {
+  font-size: 25px;
+  text-align: center;
+  font-weight: 500;
+  margin-top: 30px;
+}
+
+.other-movies-container {
+  cursor: pointer;
+  text-align: center;
+  margin: 60px 0px;
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.other-movie {
+  flex: 0 0 auto;
+  margin-right: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+.other-movie:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+.other-movie-img {
+  padding: 20px;
+  width: 150px;
+  height: 225px;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+.other-movie-img {
+  width: 380px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.other-movie-title {
+  font-size: 22px;
+  margin-top: 10px;
+  color: black;
+}
+
+/* button xxl this code for SignleUpcomming.tsx file */
+
+.Single-premium-type {
+  display: flex;
+  justify-content: start;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.prem-1 {
+  background: linear-gradient(to right, #f2c46f 0%, #c6943f 100%);
+  color: white;
+  border-radius: 5px;
+}
+.prem-2 {
+  background-color: #ec1e2b;
+  color: white;
+  border-radius: 5px;
+}
+.prem-3 {
+  background-color: #000e62;
+  color: white;
+  border-radius: 5px;
+}
+
+/*tag*/
+
+.single-tag {
+  padding: 2px 5px;
+  display: inline;
+  width: auto;
+  height: auto;
+  margin: 10px 0px;
+  border: 1px solid black;
+}
